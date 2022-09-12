@@ -4,7 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MasterViewComponent } from './master-view/master-view.component';
-import { IgxGridModule } from 'igniteui-angular';
+import { IgxGridModule, IgxActionStripModule } from 'igniteui-angular';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
@@ -18,6 +18,7 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     BrowserAnimationsModule,
     IgxGridModule,
+    IgxActionStripModule,
     FormsModule
   ],
   providers: [],
